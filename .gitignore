@@ -1,0 +1,50 @@
+# Android
+/android/.gradle/
+/android/.idea/
+/android/local.properties
+/android/app/build/
+/android/build/
+/android/app/proguard-rules.pro
+android/gradle.properties
+*.keystore
+
+# iOS
+/ios/Pods/
+/ios/build/
+/ios/DerivedData/
+/ios/*.xcodeproj/project.xcworkspace
+/ios/*.xcworkspace
+
+# Node & general
+/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+package-lock.json
+
+# Metro
+.expo/
+.expo-shared/
+*.expo
+*.expo.*
+
+# VSCode & IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TypeScript
+dist/
+/*.tsbuildinfo
+
+# Bundle
+*.apk
+*.ipa
+*.aab
+
+# Env
+.env
+.env.*
